@@ -1,0 +1,16 @@
+CRITICAL - 2020-07-13 00:33:30 --> Undefined offset: 1
+#0 D:\sisChamados\app\Controllers\Login.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\sisChamados\\...', 93, Array)
+#1 D:\sisChamados\system\CodeIgniter.php(914): App\Controllers\Login->validaLogin()
+#2 D:\sisChamados\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\sisChamados\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\sisChamados\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\sisChamados\system\Commands\Server\rewrite.php(34): require_once('D:\\sisChamados\\...')
+#6 {main}
+CRITICAL - 2020-07-13 00:33:40 --> Undefined offset: 1
+#0 D:\sisChamados\app\Controllers\Login.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\sisChamados\\...', 93, Array)
+#1 D:\sisChamados\system\CodeIgniter.php(914): App\Controllers\Login->validaLogin()
+#2 D:\sisChamados\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\sisChamados\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\sisChamados\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\sisChamados\system\Commands\Server\rewrite.php(34): require_once('D:\\sisChamados\\...')
+#6 {main}

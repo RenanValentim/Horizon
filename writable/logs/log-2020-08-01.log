@@ -1,0 +1,156 @@
+CRITICAL - 2020-08-01 01:15:59 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->tecMain()
+#1 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#5 {main}
+CRITICAL - 2020-08-01 01:16:43 --> Use of undefined constant disable - assumed 'disable' (this will throw an Error in a future version of PHP)
+#0 D:\horizon\app\Config\Routes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\horizon\\app\\...', 23, Array)
+#1 D:\horizon\system\CodeIgniter.php(776): require('D:\\horizon\\app\\...')
+#2 D:\horizon\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#6 {main}
+CRITICAL - 2020-08-01 01:16:46 --> Use of undefined constant disable - assumed 'disable' (this will throw an Error in a future version of PHP)
+#0 D:\horizon\app\Config\Routes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\horizon\\app\\...', 23, Array)
+#1 D:\horizon\system\CodeIgniter.php(776): require('D:\\horizon\\app\\...')
+#2 D:\horizon\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#6 {main}
+CRITICAL - 2020-08-01 01:37:55 --> Call to undefined method CodeIgniter\Session\Session::get_current_user()
+#0 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->abreChamado()
+#1 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#5 {main}
+CRITICAL - 2020-08-01 01:38:10 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->abreChamado()
+#1 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#5 {main}
+CRITICAL - 2020-08-01 01:38:29 --> Undefined variable: session
+#0 D:\horizon\app\Controllers\Login.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\horizon\\app\\...', 155, Array)
+#1 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->abreChamado()
+#2 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#6 {main}
+CRITICAL - 2020-08-01 01:42:40 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$session_encode
+#0 D:\horizon\app\Controllers\Login.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\horizon\\app\\...', 155, Array)
+#1 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->abreChamado()
+#2 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#6 {main}
+CRITICAL - 2020-08-01 01:42:51 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$session_id
+#0 D:\horizon\app\Controllers\Login.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\horizon\\app\\...', 155, Array)
+#1 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->abreChamado()
+#2 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#6 {main}
+CRITICAL - 2020-08-01 01:43:04 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$session_id
+#0 D:\horizon\app\Controllers\Login.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\horizon\\app\\...', 155, Array)
+#1 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->abreChamado()
+#2 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#6 {main}
+CRITICAL - 2020-08-01 03:49:24 --> Undefined variable: db
+#0 D:\horizon\app\Views\myData\myData.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\horizon\\app\\...', 14, Array)
+#1 D:\horizon\system\View\View.php(246): include('D:\\horizon\\app\\...')
+#2 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#3 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#4 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#5 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#9 {main}
+CRITICAL - 2020-08-01 03:49:44 --> Call to undefined function query()
+#0 D:\horizon\system\View\View.php(246): include()
+#1 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#2 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#3 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#4 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#8 {main}
+CRITICAL - 2020-08-01 03:50:17 --> Undefined property: CodeIgniter\View\View::$db
+#0 D:\horizon\app\Views\myData\myData.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\horizon\\app\\...', 14, Array)
+#1 D:\horizon\system\View\View.php(246): include('D:\\horizon\\app\\...')
+#2 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#3 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#4 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#5 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#9 {main}
+CRITICAL - 2020-08-01 03:50:23 --> Undefined variable: db
+#0 D:\horizon\app\Views\myData\myData.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\horizon\\app\\...', 14, Array)
+#1 D:\horizon\system\View\View.php(246): include('D:\\horizon\\app\\...')
+#2 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#3 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#4 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#5 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#9 {main}
+CRITICAL - 2020-08-01 03:50:29 --> Undefined variable: db
+#0 D:\horizon\app\Views\myData\myData.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\horizon\\app\\...', 14, Array)
+#1 D:\horizon\system\View\View.php(246): include('D:\\horizon\\app\\...')
+#2 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#3 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#4 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#5 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#9 {main}
+CRITICAL - 2020-08-01 03:51:58 --> Undefined variable: db
+#0 D:\horizon\app\Views\myData\myData.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\horizon\\app\\...', 14, Array)
+#1 D:\horizon\system\View\View.php(246): include('D:\\horizon\\app\\...')
+#2 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#3 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#4 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#5 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#9 {main}
+CRITICAL - 2020-08-01 03:52:10 --> Undefined variable: db
+#0 D:\horizon\app\Views\myData\myData.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\horizon\\app\\...', 14, Array)
+#1 D:\horizon\system\View\View.php(246): include('D:\\horizon\\app\\...')
+#2 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#3 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#4 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#5 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#9 {main}
+CRITICAL - 2020-08-01 04:31:21 --> Undefined variable: db
+#0 D:\horizon\app\Views\myData\myData.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\horizon\\app\\...', 10, Array)
+#1 D:\horizon\system\View\View.php(246): include('D:\\horizon\\app\\...')
+#2 D:\horizon\system\Common.php(1087): CodeIgniter\View\View->render('myData/myData', Array, true)
+#3 D:\horizon\app\Controllers\Login.php(141): view('myData/myData')
+#4 D:\horizon\system\CodeIgniter.php(914): App\Controllers\Login->MeusDados()
+#5 D:\horizon\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\horizon\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\horizon\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\horizon\system\Commands\Server\rewrite.php(34): require_once('D:\\horizon\\publ...')
+#9 {main}
